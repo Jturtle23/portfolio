@@ -13,6 +13,35 @@
       margin: 0;
       padding: 0;
     }
+
+    h1 {
+      text-align: center;
+      font-family: arial, sans-serif;
+      animation-name: pageNotFound;
+      animation-duration: 2s;
+    }
+
+    @keyframes pageNotFound {
+      from {display: none;}
+      to {display: block}
+    }
+
+    #home-page-button {
+      background-color: #ffe6b3;
+      border-radius: 10px;
+    }
+
+    #home-page-button:hover {
+      background-color: #4d3300;
+      color: #fff;
+    }
+
+    #home-page-button a {
+      text-decoration: none;
+      color: #000;
+      font-family: sans-serif;
+      text-align: center;
+    }
     
   </style>
     
@@ -20,8 +49,11 @@
 
   <body>
 
-    <h1>Jturtle23 - Page doesn't exist!</h1>
-    <a href="index.html">Home page</a>
+    <h1>Page not found!</h1>
+
+    <div id="home-page-button">
+      <a href="index.html">Go to Home Page</a>
+    </div>
     
   </body>
 </html>
