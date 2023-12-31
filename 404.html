@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Page doesn't exist!</title>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin: 10px 0 25px 0;
+      text-align: center;
+      font-family: arial, sans-serif;
+      animation-name: pageNotFound;
+      animation-duration: 2s;
+    }
+
+    @keyframes pageNotFound {
+      from {display: none;}
+      to {display: block}
+    }
+
+    #home-page-button {
+      margin: 0 auto;
+      width: auto;
+      background-color: #ffe6b3;
+      border-radius: 10px;
+      padding: 15px;
+    }
+
+    #home-page-button:hover {
+      background-color: #ffeecc;
+    }
+
+    #home-page-button p {
+      display: inline-block;
+      text-decoration: none;
+      color: #000;
+      font-size: 20px;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    
+  </style>
+    
+  </head>
+
+  <body>
+
+    <h1>Page not found!</h1>
+
+    <a href="index.html">
+      <div id="home-page-button"><p>Go to Home Page</p></div>
+    </a>
+    
+  </body>
+</html>
