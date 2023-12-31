@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!-- NOTE 12/24/23 REMEMBER TO LEARN HOW to commit all changes in the 2023 folder to gitHub. Thanks! -->
+
 <head>
 
 	<title>What I Learned</title>
@@ -8,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	
+	<link rel="icon" type="image/x-icon" href="./pages/images/favicon.ico">
 	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Comic+Neue:wght@700&family=DM+Serif+Text&family=Rubik&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Comic+Neue:wght@700&family=DM+Serif+Text&family=Kanit:wght@300&family=Rubik&display=swap" rel="stylesheet">
 	<link href="./styles/styles.css" rel="stylesheet" type="text/css">
@@ -66,7 +69,7 @@
 		<p>In spring 2023, I taught myself how to code, specifically in web development. I knew very basic coding from my homeschool curriculum, EP, but this year, I decided to learn more.</p>
 		<p>To show what I learned for my 2023 school year evaluation, I thought what better idea than to create a website featuring all of my skills! I plan to make one of these every year, each new site better than the previous one.</p>
 		<p>This year was my learning curve year, where I was exposed to many new concepts in web development and gave me a new perspective and respect for people who create websites - it's hard!</p>
-		<p>For me, the hardest part about coding was keeping myself <i>organized</i>. I would get confused with what goes to what and what everything does. That's why most of the projects I started never got finished.</p>
+		<p>For me, the hardest part about coding was keeping myself <em>organized</em>. I would get confused with what goes to what and what everything does. That's why most of the projects I started never got finished.</p>
 		<p>Anyway, this spring, I learned the following languages:</p>
 
 	
@@ -99,8 +102,8 @@
 		this website regarding CSS specificity, but I debugged it after some research. Another challenge I had while making this website specifically was making a reusable navigation bar. The browser 
 		doesn't just <em>know</em> that the navigation bar must be included on every page. After days of searching for a solution, I settled for <code>&lt;iframe&gt;</code> tags.</p>
 		
-		<p>I learned this wasn't the <em>best</em> way to do this (according to the internet, the most widely accepted method is using another language such as PHP. But I literally was scrambling 
-		for a solution the day before my evaluation, so it's what I settled for.</p>
+		<p>I learned this wasn't the <em>best</em> way to do this. According to the internet, the most widely accepted method is using another language such as PHP, but I literally was scrambling 
+		for a solution the day before my evaluation, so &lt;iframe&gt;s are what I settled for.</p>
 		
 		<p>I haven't gone very far in JavaScript, but I know about different variables and functions. I also learned how to change the attributes ("styles") that CSS gives an element using JS.</p>
 		
